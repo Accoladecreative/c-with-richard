@@ -17,17 +17,23 @@ int main(){
 
     void calculateAge(int year){
         int age = 2023 - year;
-        printf("Your age is %d",age);
+        printf("Your age is %d\n\n",age);
     }
+
 
     
 
-    void welcome user(int year){
-        int age = 2023 - year;
-        printf("Your age is %d",age);
+    void welcomeuser(char username[]){
+        printf("You are welcome, Mr %s\n",username);
     }
 
     calculateAge(1997);
+
+
+    welcomeuser("Kolade");
+    welcomeuser("RIchard");
+    welcomeuser("Michael");
+    welcomeuser("Adepoju");
 
 
 
