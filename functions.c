@@ -8,7 +8,11 @@ int main(){
 
 
     const char* greet(){
-        return "You are welcome";
+        
+        char name[] = "hello";
+        strcat(name," World");
+        // return "You are welcome";
+        return name;
     }
     printf(greet());
 
@@ -19,6 +23,8 @@ int main(){
         int age = 2023 - year;
         printf("Your age is %d\n\n",age);
     }
+
+    
 
 
     
